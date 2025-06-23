@@ -28,44 +28,44 @@
 
 ![alias](./img/alias.png)
 
-### Export dry run command
+### Export dry run command.
 * Run `export do="--dry-run=client -o yaml`
 
 ![export](./img/export-dry-run.png)
 
-### Breakdown of the command
+### Breakdown of the command.
 * `export do = ` : create an ENV called do
 * do stores a value `--dry-run=client -o yaml`
 * You can now type `$do` instead of `--dry-run=client -o yaml`
 * `--dry-run=client` means **Just prepare it, don't actually do it yet** 
 * `-o yaml` means **Print it out as yaml**
 
-### Create namespace 'dev' if not existing
+### Create namespace 'dev' if not existing.
 
 * Run `k create namespace dev` to create the dev namespace.
 
 ![namespce](./img/create-namespace.png)
 
-## Create the web-pod yaml (dry run)
+## Create the web-pod yaml (dry run).
 
 * Run `k run web-pod --image=nginx --namespace=dev --port=80 $do > nginxpod.yaml`
 
-* This will just create the yaml file and save it as nginxpod.yaml
+* This will just create the yaml file and save it as nginxpod.yaml.
 
 ![dry-run](./img/dry-run-file.png)
 
-## View the yaml file
-* Run `cat nginxpod.yaml` to view the yaml file you created with the previous command
+## View the yaml file.
+* Run `cat nginxpod.yaml` to view the yaml file you created with the previous command.
 
 ![cat](./img/cat-dry-run-file.png)
 
-## Create the pod from yaml
+## Create the pod from yaml.
 
 * Run `k apply -f nginxpod.yaml` to create the web-pod.
 
 ![pod-created](./img/apply-dry-run-file.png)
 
-## Check pod status
+## Check pod status.
 * To check if the pod is running `k get pods -n dev`
 
 ![get](./img/k-get-pods.png)
@@ -80,7 +80,7 @@
 
 ![log](./img/k-logs-pod.png)
 
-### Log into the pods exec terminal
+### Log into the pods exec terminal.
 
 * Run `k exec -it web-pod -n dev --bin/bash` to log in to the pod's bash terminal
 
