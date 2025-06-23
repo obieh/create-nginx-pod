@@ -1,20 +1,20 @@
-# Create Nginx Pod Using Minikube
-## This Project will cretae an nginx pod in minikube using dry run and inspect the pod for errors
+# Create Nginx Pod Using Minikube.
+## This Project will cretae an nginx pod in minikube using dry run and inspect the pod for errors.
 
-## Pre-requisite
+## Pre-requisite.
 * You should have minikube and docker installed in your system. This project does not cover minikube installation.
 
-## Set up ENV
-* Start Minikube
+## Set up ENV.
+* Start Minikube.
 
 * Run `minikube start` to start minikube node on your system.
 
 ![start-minikube](./img/start%20minikube.png)
 
-### N//B I am running a 2-node cluster. I you wish to do same then
+### N//B I am running a 2-node cluster. I you wish to do same then,
 * Run `minikube start --node=2` You cann add a flag -p<node name> if you want to name the worker node.
 
-### Check your cluster status to be sure your node is up and running
+### Check your cluster status to be sure your node is up and running.
 
 * `minikube status`
 
