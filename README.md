@@ -70,19 +70,19 @@
 
 ![get](./img/k-get-pods.png)
 
-* Run `k describe pod web-pod -n dev` to see more detailed pod status
+* Run `k describe pod web-pod -n dev` to see more detailed pod status.
 
 ![describe](./img/describe1.png)
 
 ![describe2](./img/describe2.png)
 
-* Run `k logs web-pod -n dev` to view pod logs
+* Run `k logs web-pod -n dev` to view pod logs.
 
 ![log](./img/k-logs-pod.png)
 
 ### Log into the pods exec terminal.
 
-* Run `k exec -it web-pod -n dev --bin/bash` to log in to the pod's bash terminal
+* Run `k exec -it web-pod -n dev --bin/bash` to log in to the pod's bash terminal.
 
 ![exec](./img/k-exec-pod.png)
 
