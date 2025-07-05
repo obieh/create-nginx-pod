@@ -86,7 +86,7 @@
 
 ![exec](./img/k-exec-pod.png)
 
-* execute `ls` command in the pod terminal
+* execute `ls` command in the pod terminal.
 
 ![ls](./img/ls-inside-pod.png)
 
