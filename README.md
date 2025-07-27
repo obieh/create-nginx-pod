@@ -34,7 +34,7 @@
 ![export](./img/export-dry-run.png)
 
 ### Breakdown of the command.
-* `export do = ` : create an ENV called do
+* `export do = ` : create an ENV called do.
 * do stores a value `--dry-run=client -o yaml`
 * You can now type `$do` instead of `--dry-run=client -o yaml`
 * `--dry-run=client` means **Just prepare it, don't actually do it yet** 
