@@ -84,7 +84,7 @@
 
 * Run `k exec -it web-pod -n dev --bin/bash` to log in to the pod's bash terminal.
 
-![exec](./img/k-exec-pod.png)
+![exec](./img/k-exec-pod.png).
 
 * execute `ls` command in the pod terminal.
 
