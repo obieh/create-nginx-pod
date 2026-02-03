@@ -22,7 +22,7 @@
 
 ### Both control plane and worker nodes are up and running.
 
-### Create Alias for kubectl key. This simply means you use 'k' instead of the full 'kubectl' keyword when running the command
+### Create Alias for kubectl key. This simply means you use 'k' instead of the full 'kubectl' keyword when running the command.
 
 * Run `alias k=kubectl`
 
