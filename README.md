@@ -46,7 +46,7 @@
 
 ![namespce](./img/create-namespace.png)
 
-## Create the web-pod yaml (dry run)
+## Create the web-pod yaml (dry run).
 
 * Run `k run web-pod --image=nginx --namespace=dev --port=80 $do > nginxpod.yaml`
 
@@ -86,7 +86,7 @@
 
 ![exec](./img/k-exec-pod.png).
 
-* execute `ls` command in the pod terminal
+* execute `ls` command in the pod terminal.
 
 ![ls](./img/ls-inside-pod.png)
 
