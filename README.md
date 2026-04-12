@@ -7,7 +7,7 @@
 ## Set up ENV.
 * Start Minikube.
 
-* Run `minikube start` to start minikube node on your system
+* Run `minikube start` to start minikube node on your system.
 
 ![start-minikube](./img/start%20minikube.png)
 
