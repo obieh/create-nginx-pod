@@ -14,7 +14,7 @@
 ### N//B I am running a 2-node cluster. I you wish to do same then,
 * Run `minikube start --node=2` You cann add a flag -p<node name> if you want to name the worker node.
 
-### Check your cluster status to be sure your node is up and running
+### Check your cluster status to be sure your node is up and running.
 
 * `minikube status`
 
